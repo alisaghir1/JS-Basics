@@ -1,7 +1,8 @@
-const shoe_size= parseFloat(prompt("input your shoe size"))
-const birth_year= parseFloat(prompt("input your birth year"))
+const num1 = parseFloat(prompt("Enter the first number:"));
+  const num2 = parseFloat(prompt("Enter the second number:"));
 
+  const division= num1 / num2
+  const remainder=num1 % num2
 
-
-const result= shoe_size * 2 + 5 * 50 / birth_year + 1766
-alert(result)
+  alert(division)
+  alert(remainder)
